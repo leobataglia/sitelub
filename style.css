@@ -5,7 +5,6 @@
     margin: 0;
     text-decoration: none;
     list-style: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
     box-sizing: border-box;
 }
@@ -22,37 +21,134 @@ body {
 }
 
 header {
-    font-size: 18px;
-    color: white;
-    backdrop-filter: blur(10px);
-    justify-content: space-between;
-    width: 100%;
-    position: fixed;
-    background: linear-gradient(to right, #063665, #0A58A5);
-    font-weight: 500;
-    text-align: center;
-    padding: 5px 6%;
     display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, #063564,#0A58A4);
+    font-weight: bolder;
+    color: white;
+    padding: 4px; 
 }
+
+header > p {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#imagenstopo {
+    display: flex;
+    margin-top: -70px;
+    margin-left: 1200px;
+    justify-content: right;
+    width: 600px;
+    gap: 20px;
+}
+
+#imglub {
+    display: flex;
+    justify-content: center;
+    margin-left: 90px;
+    margin-top: 20px;
+    width: 280px;
+}
+
+#imglubrificante {
+    width: 260px;
+    height: 40px;
+}
+#imgtexaco {
+    height: auto;
+    width: 260px;
+}
+
+#navegacao {
+    margin-left: 90px;
+    margin-top: 30px;
+    width: 1700px;
+
+}
+
+ul {
+    display: flex;
+    margin-left: 30px;
+    margin-top: -10px;
+    flex-direction: row;
+    justify-content: left;
+    gap: 50px;
+}
+
+
+#navegacao a {
+    display: inline-block;
+    font-weight: 600;
+    color: rgba(105, 105, 105, 0.76);
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.2s ease-in-out;
+}
+
+
+#navegacao a:hover {
+    transform: rotate(10px,10px);
+    transform: translate(-3px, -5px);
+}
+
+
+
+
+.formmae {
+    display: flex;
+    gap: 5px;
+    height: 30px;
+    justify-content: center;
+}
+
+.material-symbols-outlined{
+    display: flex;
+    margin-top: 3px;
+    margin-right: 10px;
+    color: red;
+    pointer-events: none;
+    position: absolute;
+
+}
+
+#search {
+    display: flex;
+    justify-content: right;
+    margin-top: -25px;
+    margin-right: 650px;
+}
+input[type="search"]{
+    border-radius: 40px;
+    height: 30px;
+    border: 2px solid rgba(128, 128, 128, 0.644);
+    text-align: center;
+}
+ input[type="submit"] {
+    width: 100px;
+    
+ }
+ input[type="reset"] {
+    width: 100px;
+ }
+
 
 #zaplogo {
     font-size: 23px;
 }
 
-
-a {
-    color: white;
-}
-nav {
-    padding-top: 33px;
-    background: linear-gradient(to right,#063665,#0A58A5 );
-    width: 100%;
-}
 ::-webkit-scrollbar {
     background: white;
     width: 23px;
 }
 ::-webkit-scrollbar-thumb {
     background: linear-gradient(to bottom,#3251db, #8705ae);
+}
+
+hr {
+    display: flex;
+    justify-content: center;
+    margin-left: 90px;
+    margin-top: 50px;
+    width: 1700px;
+    border: 1px solid rgba(128, 128, 128, 0.425);
 }
 
