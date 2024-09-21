@@ -90,6 +90,28 @@ ul {
     transform: translate(-3px, -5px);
 }
 
+#redesocial {
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+    margin-top: -34px;
+    margin-right: 110px;
+    font-size: 40px;
+    color: #0A58A4;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.5em;
+    color: #063564;
+}
+h2 {
+    color: rgba(97, 97, 97, 0.877);
+    margin-top: 10px;
+    text-align: center;
+}
+
 
 
 
@@ -104,7 +126,7 @@ ul {
     display: flex;
     margin-top: 3px;
     margin-right: 10px;
-    color: red;
+    color: rgba(128, 128, 128, 0.644);
     pointer-events: none;
     position: absolute;
 
@@ -113,10 +135,12 @@ ul {
 #search {
     display: flex;
     justify-content: right;
-    margin-top: -25px;
-    margin-right: 650px;
+    margin-top: -20px;
+    margin-right: 350px;
 }
 input[type="search"]{
+    font-size: 16px;
+    font-weight: bold;
     border-radius: 40px;
     height: 30px;
     border: 2px solid rgba(128, 128, 128, 0.644);
@@ -140,8 +164,13 @@ input[type="search"]{
     width: 23px;
 }
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(to bottom,#3251db, #8705ae);
+    background: linear-gradient(to bottom, #0A58A4, #063564);
 }
+
+#redesocial a {
+    color: #0A58A4;
+}
+
 
 hr {
     display: flex;
