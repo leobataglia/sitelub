@@ -117,8 +117,9 @@ h2 {
     flex-direction: column;
     margin: auto;
     width: 1700px;
-    height: 900px;
+    height: 980px;
     background-color: red;
+    overflow: hidden;
 }
 
 #carro {
@@ -126,20 +127,23 @@ h2 {
 }
 
 #caminhao {
-    margin-top: -250px;
-    height: 1000px;
-    margin-left: 1000px;
-    width: 800px;
+    margin-top: -355px;
+    height: 900px;
+    margin-left: 980px;
+    width: 1000px;
 }
 #moto {
-    width: 700px;
+    margin-left: -550px;
+    width: 1200px;
 }
 #agricola {
-    margin-left: 1000px;
-    width: 700px;
+    margin-top: -400px;
+    margin-left: 980px;
+    width: 800px;
+    height: 600px;
 }
 #posto {
-    width: 700px;
+    width: 1000px;
 }
 
 
