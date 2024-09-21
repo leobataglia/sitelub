@@ -112,6 +112,36 @@ h2 {
     text-align: center;
 }
 
+#categorias {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 1700px;
+    height: 900px;
+    background-color: red;
+}
+
+#carro {
+    width: 950px;
+}
+
+#caminhao {
+    margin-top: -250px;
+    height: 1000px;
+    margin-left: 1000px;
+    width: 800px;
+}
+#moto {
+    width: 700px;
+}
+#agricola {
+    margin-left: 1000px;
+    width: 700px;
+}
+#posto {
+    width: 700px;
+}
+
 
 
 
