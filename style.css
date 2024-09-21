@@ -117,8 +117,8 @@ h2 {
     flex-direction: column;
     margin: auto;
     width: 1700px;
-    height: 980px;
-    background-color: red;
+    height: 1430px;
+    background-color: rd;
     overflow: hidden;
 }
 
@@ -128,22 +128,43 @@ h2 {
 
 #caminhao {
     margin-top: -355px;
-    height: 900px;
+    height: 400px;
     margin-left: 980px;
     width: 1000px;
 }
 #moto {
     margin-left: -550px;
-    width: 1200px;
+    width: 1185px;
 }
 #agricola {
     margin-top: -400px;
     margin-left: 980px;
     width: 800px;
-    height: 600px;
+    height: 400px;
 }
 #posto {
-    width: 1000px;
+    margin-bottom: -90px;
+    margin-top: 30px;
+    width: 100%;
+    height: 600px;
+}
+#textofoto {
+    position: absolute;
+    background-color: white;
+    top: 700px;
+    left: 764px;
+    width: 285px;
+    height: 423px;
+    text-align: center;
+    padding: 35px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.151);
+    margin-top: 24px;
+}
+#textofoto p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+    color: #0b4986;
+    font-weight: bold;
 }
 
 
