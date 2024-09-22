@@ -183,6 +183,11 @@ h2 {
     transform: translate(12px, -1px);
 }
 
+#texto {
+    margin: auto;
+    width: 900px;
+}
+
 .formmae {
     display: flex;
     gap: 5px;
