@@ -218,18 +218,17 @@ h2 {
     font-weight: bolder;
 }
 #ico-container {
-    width: 120px;
-    height: 120px;
-    background: linear-gradient(to bottom,#5EFA7A,#27D045);
-    border-radius: 50%;
-    color: transparent;
+    background: linear-gradient(to right,#5EFA7A, #27D045);
+    width: 100px;
+    height: 100px;
     background-clip: text;
-    font-size: 120px;
-    -webkit-background-clip: text;
+    border-radius: 50px 50px 50px 50px;
 }
 
 #icozap {
- 
+    color: transparent;
+    font-size: 120px;
+
 }
     
     
